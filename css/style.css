@@ -1,0 +1,132 @@
+
+body {
+    background-color:#39324E;
+ 
+}
+
+main h1{
+    text-align: center;
+    font-size: 10vh;
+}
+
+#container {
+    margin-top: 2%;
+    width: 100%;
+    min-height: initial;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr) ) ;;
+    grid-gap: 1em;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+
+@media (max-width: 576px) {
+    #container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .navContainer {
+        width: 100%;
+        min-height: 400px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}    
+
+
+.fizbuz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border:1px solid #bbb;
+    background-color:#649B8E;
+
+}
+
+.fizbuz:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+.fiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border: 1px solid #bbb;
+    background-color: #8D9B64;
+}
+
+.fiz:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+.buz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;
+    border:1px solid #bbb;
+    background-color: #9B6471;
+}
+
+.buz:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+.num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1.5em;;
+    border:1px solid #bbb;
+    background-color: #72649B;
+}
+
+.num:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+.navContainer {
+    width: 100%;
+    height: 15VH;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #324E47;
+    font-size: 1.5em;
+
+}
+  
+  input, button {
+      font-size: 1em;
+      width: 15vh;
+      text-align: center;
+  }
+    
+    #btnOne {
+        background-color: #FFFFFF; 
+        color: black; 
+        border: 5px solid #000000;
+      }
+      
+    #btnTwo {
+        background-color: #FFFFFF; 
+        color: black; 
+        border: 5px solid #000000;
+      }
